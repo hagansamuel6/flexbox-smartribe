@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <style>
+     .deal-section {
+         border: 1px solid red;
+         /* width: 250px; */
+         flex-basis: 250px;
+     }
+
+
+     .deal-section-parent {
+         display: flex;
+         justify-content: space-between;
+         border: 2px solid blue;
+         /* flex-direction: row-reverse; */
+         /* flex-wrap: wrap; */
+        
+     }
+    </style>
+</head>
+<body>
+    <section class="deal-section-parent">
+        <div class="deal-section width-25">
+            <h3>Special Deals</h3>
+            <p>Lorem ipsum dolor sit amet consectetplicabo exercitationem facilis natus tenetur porro error, facere rem vel consectetur nesciunt.</p>
+        </div>
+        
+        <div class="deal-section">
+            <h3>
+                Xmas Discounts
+            </h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam corporis nostrum ex pariatur, beatae architecto </p>
+        </div>
+
+        <div class="deal-section">
+            <h3>Special promotions</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptatibus labore iusto accusantium neque ullam dolorem exercitationem at omnis vel debitis numquam ea 
+            </p>
+        </div>
+
+        <div class="deal-section">
+            <h3>Best Customer Service</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum sunt harum ducimus doloribus veritatis odio ex veniam </p>
+        </div>
+    </section>
+</body>
+</html>
